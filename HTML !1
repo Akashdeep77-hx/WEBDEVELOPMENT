@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<!--This is my first html code-->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first page</title>
-</head> 
-<body>
-    <!--This is a HTML comment-->
-<h1>HELLO WORLD!</h1>
-<p>This is a paragraph</p>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>MY 1ST HTML </title>    
+    </head>
+    <body>
+        <h1>AKASHDEEP FIRST HTML PROGRAM</h1>
+        <h2>AKASHDEEP FIRST HTML PROGRAM</h2>
+        <h3>AKASHDEEP FIRST HTML PROGRAM</h3>
+        <h4>AKASHDEEP FIRST HTML PROGRAM</h4>
+        <h5>AKASHDEEP FIRST HTML PROGRAM</h5>
+        <h6>AKASHDEEP FIRST HTML PROGRAM</h6>
+        
+        <!---THIS COMMENT WILL NOT SHOWN--->
+        <p>THIS IS PARAGRAPH</p>
 
-</body>
+        <p>THIS LINE IS USED FOR <br>BR TAG WHICH IS USED FOR BREAK THE LINES </p>
+
+        <p>
+            HI MY NAME IS AKASHDEEP CHIK BARAIK
+        </p>
+    </body>
 </html>
