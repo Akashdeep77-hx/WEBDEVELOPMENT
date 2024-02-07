@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
         <title>MY 1ST HTML </title>    
     </head>
@@ -10,7 +10,7 @@
         <h4>AKASHDEEP FIRST HTML PROGRAM</h4>
         <h5>AKASHDEEP FIRST HTML PROGRAM</h5>
         <h6>AKASHDEEP FIRST HTML PROGRAM</h6>
-        
+        <hr>
         <!---THIS COMMENT WILL NOT SHOWN--->
         <p>THIS IS PARAGRAPH</p>
 
@@ -19,5 +19,40 @@
         <p>
             HI MY NAME IS AKASHDEEP CHIK BARAIK
         </p>
-    </body>
+<hr> <!--hr tags stands for horizontal ruler it acts as a ruler or scale-->
+        <!---This line is used Setting/Command Pallete/Toggle Word Wrap for Paragraph-->
+        <p>sample paragraph sample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraph </p>
+
+        <hr>
+        <!---We will used anchor tag to add link to go another webpage-->
+<!--THIS GOOGLE AND FLIPKART ANCHOR LINK ARE KNOWN AS ABSOLUTE LINK BECAUSE THEY ARE THIRD PARTY LINK-->
+        <a href="https://www.google.com/"> Google </a>
+        <br>
+        <a href="https://www.flipkart.com/"> Flipkart </a>
+        <br>
+<!--And we add own created website link is known to be Relative Link-->
+        <a href="Hello/Hello.html"> Go to Hello </a>
+        <br> <hr>
+        <img src="image1.png" alt="a text of hello in cursive"/
+        height="100">
+        <br> <hr>
+        <p>
+        <b> sample paragraph</b>
+        <i> sample paragraph</i>
+        <u> sample paragraph</u>
+        </p> <hr>
+    <big>This tag shows big tags</big>
+    <br> 
+    <small>This tags shows small tags</small>
+
+    <!--Subscript Tag <sub> <sup> used to display a horizontal ruler,used to separate content--->
+<p>H<sub>2</sub>O , H<sup>2</sup>O , C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> , CHLORO<sup>2</sup></p>
+
+<pre>
+HELLO!                   How are you HELLO ! How are youHELLO ! How are youHELLO ! How are youHELLO ! How are youHELLO !  
+</pre>
+<!--Now we start semantic(header,footer) and non-semantic tag (div,span)-->
+<!--(semantic)Readable,good user experience visually,auudioly-->
+<!--(non semantic)-->        
+ </body>
 </html>
