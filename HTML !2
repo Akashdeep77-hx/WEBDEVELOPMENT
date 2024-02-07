@@ -8,18 +8,45 @@
 <body>
 <header>
 <pre>
-<h1>My Portfolio</h1>
+<h1>      <u> My Portfolio </u></h1>
 </pre>
 </header>
 <main>
-<section>Education: MCA (Post Graduation ) | AMITY UNIVERSITY</section>
-<section>Experiences:|Google|Apple|Microsoft|</section>
-<article>My Story:- Hello I am Akashdeep Chik Baraik</article>
- 
+   <pre> <b>
+   <section>Education: MCA (Post Graduation ) | AMITY UNIVERSITY</section>
+<br>
+   <section>Experiences: |Google |Apple |Microsoft|</section>
+<br>
+   <article>My Story:- Hello I am Akashdeep Chik Baraik</article>
+</pre>
+</b>
+<br>
+<br>
 <a href="https://www.google.com/"target="_main">Google</a>       <!--_main helps to open link onto new tab or window-->
 <a href="https://www.google.com"><img src="google.png"height=20></a>
-<aside>This is an AD</aside>
-
+<a href="https://www.facebook.com/"target="_main">Facebook</a>
+<a href="https://www.facebook.com/"><img src="facebook.png"height=20 alt=""></a>
+<a href="https://www.instagram.com/_hrithwick4080/"target="_main">Instagram</a>
+<a href="https://www.instagram.com/_hrithwick4080/"><img src="instagram.jpg"height=20 alt=""></a>
+<br>
+<aside><h5>This is an AD</h5></aside>
+ <div>
+    <p>Hello World</p>
+    <p>Namaste</p>
+    <p>Hello</p>
+    <p>Pranaam</p>
+</div>
+ <div>
+    <p>Bye</p>
+    <p>Good Bye</p>
+    <p>Tata</p>
+</div>
+<span>
+    AKASHDEEP
+    <span style="background-color: deeppink;">
+    <br>AKASHDEEP
+    </span>
+</span>
 </main>
 <footer>
     <h5>Contact me at hrithwick7759057283@gmail.com</h5>
@@ -27,3 +54,5 @@
 
 </body>
 </html>
+
+<!----Div Tag (Div is a container used for other HTML elements)-->
