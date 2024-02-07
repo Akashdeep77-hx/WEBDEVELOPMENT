@@ -1,0 +1,129 @@
+<!--Level Pro-->
+<!--LIST<FORM<TABLES-->
+<!--LIST (Ul-Unordered)(Ol-Ordered)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Level(LIST,FORM,TABLES)</title>
+</head>
+<body>
+<pre><h1> <b> List </b> </h1></pre>
+<main>
+    <!--UNORDERED LIST-->
+    <ul>
+        <li>Apple</li>
+        <ul>
+            <li>color : red</li>
+            <li>season : winters</li>
+
+        </ul>
+        <li>Mango</li>
+        <ul>
+         <li>color : yellow</li>
+         <li>season : summer</li>
+        </ul>
+        <li>Guava</li>
+        <li>Papaya</li>
+        <li>Litchi</li>
+    </ul>
+    <!--ORDERED LIST-->
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Guava</li>
+        <li>Papaya</li>
+        <li>Litchi</li>
+    </ol>
+    <!--TABLES <table raw>,<table data>,<table header>-->
+        <table>
+        <thead>
+            <caption><u>STUDENT DATA</u></caption>
+            <tr>
+                <th colspan="2"> INFORMATION</th>    
+            </tr>
+            <tr>
+                <th>NAME</th>
+                <th>ROLL NO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Akash</td>
+                <td>1665</td>
+            </tr>
+
+            <tr>
+                <td>Ankita</td>
+                <td>1666</td>
+            </tr>
+
+            <tr>
+                <td>Anki</td>
+                <td>1664</td>
+            </tr>
+        </tbody>    
+        </table>
+        <BR>
+    <!--FORM (Forms are used to collect data from the user)-->
+    <!--INPUT,LABEL-->
+    <pre><h1>  FACEBOOK</h1></pre>
+        <a href="https://www.facebook.com/"target="_main">Facebook</a>
+        <a href="https://www.facebook.com/"><img src="facebook.png" height="35"></a>
+        <form action="/action.php">
+    <h1><input type="text" placeholder="USERNAME"> <br>
+        <input type="password" placeholder="PASSWORD"> </h1>
+        <br>
+
+    <label for="101">
+        <input type="radio" value="class x" name="class" id="101">class x
+    </label>
+    <br>
+    <label for="102">
+        <input type="radio" value="class xi" name="class"id="102">class xi
+    </label>
+   <br> <br> 
+   <h5><u> SELECT YOUR FAVOURATE SUBJECT </u></h5>
+    <label for="101">
+        <input type="checkbox" value="MATH" name="subject" id="101">MATH
+    </label>
+    <label for="102">
+        <input type="checkbox" value="PHY" name="subject" id="102">PHY
+    </label>
+    <label for="103">
+        <input type="checkbox" value="CHEM" name="subject" id="103">CHEM
+    </label>
+    <label for="104">
+        <input type="checkbox" value="BIO" name="subject" id="104">BIO
+    </label>
+<br><br>
+<!--------------------SELECT--------------------->
+SELECT YOUR CITY
+<select name="CITY">
+<option value="JHARKHAND">JHARKHAND</option>
+<option value="BANGLURU">BANGLURU</option>
+<option value="HYDERABAD">HYDERABAD</option>
+<option value="NOIDA">NOIDA</option>
+</select>
+<br>
+<br>
+<textarea name="feedback" id="101" placeholder="please give your opinion here"rows="5">Feedback </textarea>
+<br>
+<input type="SUBMIT" Value="SUBMIT">
+<!--------------------IFRAME TAG--------------------->
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=HmU-ttoSEdZhF_hi" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen></iframe>
+<!-------------------VIDEO TAG-------------------->
+<video width="560" height="315"  src="/myvideo.mp4" controls loop>random video</video>
+
+
+</form>
+<footer> 
+</footer>
+</main>
+</body>
+</html>
